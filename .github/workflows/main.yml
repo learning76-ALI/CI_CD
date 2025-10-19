@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   test:
-    runs-on: Windows
+    runs-on: windows-latest
 
     steps:
     - name: checkout code
