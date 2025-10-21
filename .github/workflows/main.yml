@@ -6,7 +6,16 @@ jobs:
 
     steps:
     - name: checkout code
+<<<<<<< HEAD
       run: git clone https://github.com/learning76-ALI/CI_CD.git CIfolder
+=======
+      uses: actions/checkout@4 CIfolder
+      
+    - name: install Python and pip
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+>>>>>>> 4d7e046 (modify actions)
 
     - name: install dependencies
       run: pip install -r CIfolder/requirements.txt
