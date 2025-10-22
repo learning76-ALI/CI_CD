@@ -1,5 +1,5 @@
 def say_hello():
-    return "Hello world"
+    return "Hello world label"
 
 def say_goodbye():
     return "Goodbye world"
