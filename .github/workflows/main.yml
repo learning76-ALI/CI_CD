@@ -14,8 +14,8 @@ jobs:
         python-version: 3.12
 
     - name: install dependencies
-      run: pip install -r CIfolder/requirements.txt
+      run: pip install -r requirements.txt
       
     - name: run Test
-      run: pytest CIfolder/test.py
+      run: pytest test.py
     
